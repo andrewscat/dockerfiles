@@ -8,8 +8,8 @@ The container is based on fedora. It contains:
 - pathogen
 - nerdtree (as well as nerd-fonts)
 - themes
- - atom-dark
- - base16
+  - atom-dark
+  - base16
 - devicons
 
 To build container you must set username for a user.
