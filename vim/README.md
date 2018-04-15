@@ -26,9 +26,9 @@ You can run container with the following command. It will mount dev directories,
 docker run \
   -ti \
   --name vim \
-  --volume /home/andrii/dev:/home/andrii/dev:rw \
-  --volume /home/andrii/bin:/home/andrii/bin:rw \
-  --volume /home/andrii/.gitconfig:/home/andrii/.gitconfig \
-  --volume /home/andrii/.ssh:/home/andrii/.ssh \
+  --volume /home/${USER}/dev:/home/${USER}/dev:rw \
+  --volume /home/${USER}/bin:/home/${USER}/bin:rw \
+  --volume /home/${USER}/.gitconfig:/home/${USER}/.gitconfig \
+  --volume /home/${USER}/.ssh:/home/${USER}/.ssh \
     vim /bin/bash
 ```
